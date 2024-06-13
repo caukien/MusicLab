@@ -32,7 +32,7 @@ app.get('/', (req, res)=>{
 })
 
 
-mongo.connect(process.env.MONGO_URL,
+mongo.connect(process.env.MONGO_ONLINE,
     {
     useNewUrlParser: true,
     useUnifiedTopology: true
